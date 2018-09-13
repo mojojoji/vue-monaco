@@ -23,13 +23,13 @@
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "monaco-editor": "^0.13.1",
+    "monaco-editor": "^0.14.3",
     "nano-assign": "^1.0.0"
   },
   "devDependencies": {
     "bili": "^3.1.2",
     "eslint-config-rem": "^3.0.0",
-    "monaco-editor-webpack-plugin": "^1.4.0",
+    "monaco-editor-webpack-plugin": "^1.5.2",
     "poi": "^10.2.9",
     "xo": "^0.18.0"
   },

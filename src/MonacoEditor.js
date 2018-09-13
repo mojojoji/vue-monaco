@@ -87,7 +87,7 @@ export default {
       this.editor = monaco.editor.create(this.$el, options)
       this.$emit('editorDidMount', this.editor)
       this.editor.onContextMenu(event => this.$emit('contextMenu', event))
-      this.editor.onDidBlurEditor(() => this.$emit('blur'))
+      this.editor.onDidBlurEditorWidget(() => this.$emit('blur'))
       this.editor.onDidBlurEditorText(() => this.$emit('blurText'))
       this.editor.onDidChangeConfiguration(event =>
         this.$emit('configuration', event)

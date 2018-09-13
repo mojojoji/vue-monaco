@@ -1,6 +1,6 @@
 {
   "name": "vue-monaco-mojojoji",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MonacoEditor component for Vue.js",
   "repository": {
     "url": "mojojoji/vue-monaco",
@@ -29,6 +29,7 @@
   "devDependencies": {
     "bili": "^3.1.2",
     "eslint-config-rem": "^3.0.0",
+    "module": "^1.2.5",
     "monaco-editor-webpack-plugin": "^1.5.2",
     "poi": "^10.2.9",
     "xo": "^0.18.0"
